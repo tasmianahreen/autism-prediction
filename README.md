@@ -9,7 +9,7 @@ I've used a structured dataset of 800 records, containing key features such as:
 * The target variable is the Class/ASD label, indicating whether an individual is likely to be autistic.
 
 ## 🔧 Workflow
-1️⃣ Data Preprocessing
+### 1️⃣ Data Preprocessing
 * Cleaning: Fixed typos, dropped redundant columns (like ID and single-value fields), and standardized country names.
 * Handling Missing Values: Replaced missing entries in ethnicity and relation with a default category ("Others").
 * Feature Encoding: Applied label encoding to convert categorical variables (e.g., gender, autism, relation) into numerical format.
