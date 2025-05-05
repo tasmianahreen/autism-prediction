@@ -52,7 +52,7 @@ Metrics:
 * (Planned) best_model.pkl: To save the trained model for deployment.
 
 ## ✅ Requirements
-* Python (latest version)
+* Python v3.13
 * scikit-learn
 * XGBoost
 * pandas, numpy, matplotlib, seaborn
