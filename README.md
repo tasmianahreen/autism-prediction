@@ -8,7 +8,7 @@ I've used a structured dataset of 800 records, containing key features such as:
 * Medical history (e.g., jaundice at birth, family autism history)
 * The target variable is the Class/ASD label, indicating whether an individual is likely to be autistic.
 
-# 🔧 Workflow
+## 🔧 Workflow
 1️⃣ Data Preprocessing
 * Cleaning: Fixed typos, dropped redundant columns (like ID and single-value fields), and standardized country names.
 * Handling Missing Values: Replaced missing entries in ethnicity and relation with a default category ("Others").
@@ -37,24 +37,22 @@ Metrics:
 * Confusion Matrix
 * Cross-Validation Score
 
-📈 Results:
+## 📈 Results:
 
 * XGBoost achieved the highest accuracy of ~92%.
 * Random Forest and Decision Tree followed with slightly lower performance, but the Decision Tree provided the most interpretability.
 
-🔑 Key Takeaways
+## 🔑 Key Takeaways
 * Ensemble methods (Random Forest, XGBoost) are highly effective for tabular data with both categorical and numerical features.
 * Addressing class imbalance was crucial for avoiding biased predictions.
 * Top predictive features included AQ-10 survey scores and specific demographic variables.
 
-📂 Project Structure
+## 📂 Project Structure
 * autism_prediction.ipynb: Main notebook with full analysis, model training, and results.
-
 * encoders.pkl: Saved encoders for future use.
+* (Planned) best_model.pkl: To save the trained model for deployment.
 
-(Planned) best_model.pkl: To save the trained model for deployment.
-
-✅ Requirements
+## ✅ Requirements
 * Python (latest version)
 * scikit-learn
 * XGBoost
