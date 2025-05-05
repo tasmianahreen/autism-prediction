@@ -15,24 +15,23 @@ I've used a structured dataset of 800 records, containing key features such as:
 * Feature Encoding: Applied label encoding to convert categorical variables (e.g., gender, autism, relation) into numerical format.
 * Class Imbalance: The dataset was imbalanced (639 non-ASD vs. 161 ASD cases). We used SMOTE (Synthetic Minority Over-sampling Technique) to balance the classes during training.
 
-2️⃣ Exploratory Data Analysis
+### 2️⃣ Exploratory Data Analysis
 * Visualized distributions of numerical features (age, AQ scores).
 * Analyzed class balance and outliers.
 * Created count plots for categorical variables to understand their spread.
 
-3️⃣ Model Training
+### 3️⃣ Model Training
 Trained and compared the following models:
 
 * Decision Tree: Simple and interpretable baseline.
 * Random Forest: Ensemble of decision trees to improve accuracy and reduce overfitting.
 * XGBoost: Gradient boosting framework offering strong performance.
 
-4️⃣ Hyperparameter Tuning
+### 4️⃣ Hyperparameter Tuning
 Used RandomizedSearchCV for each model to find the optimal hyperparameters, using 5-fold cross-validation for reliable performance estimates.
 
-5️⃣ Model Evaluation
+### 5️⃣ Model Evaluation
 Metrics:
-
 * Accuracy
 * Confusion Matrix
 * Cross-Validation Score
